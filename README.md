@@ -19,3 +19,13 @@ Ideal for:
 - Quick scans on suspected endpoints
 
 ## 🧰 Output Structure
+
+WinCurler_results/ ├── Host_information/ ├── Running_Processes/ ├── Installed_Software/ ├── Persistence/ ├── PowerShell_History/ └── analysis_time.txt
+
+## 💡 Author
+[Nir Arazi](https://github.com/Nir-Arazi) — Tier-1 SOC Analyst | Malware Analyst | Blue Teamer
+
+## 🛡️ Disclaimer
+This tool is provided for **educational and forensic use**. Use it responsibly.
+
+
