@@ -68,6 +68,9 @@ schtasks /query /fo LIST /v >> C:\WinCurler_results\Persistence\scheduled_tasks.
 
 type "%AppData%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" >> C:\WinCurler_results\PowerShell_History\powershell_history_win.txt 2>&1
 type "%AppData%\Microsoft\PowerShell\PSReadLine\ConsoleHost_history.txt" >> C:\WinCurler_results\PowerShell_History\powershell_history_core.txt 2>&1
+powershell -Command "Get-Content (Get-PSReadLineOption).HistorySavePath >> C:\WinCurler_results\PowerShell_History\HistorySavePath.txt 2>&1"
+
+
 
 echo      [*] Extraction Completed
 echo.
